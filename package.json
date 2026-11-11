@@ -1,0 +1,46 @@
+{
+  "name": "mcp-rupiah",
+  "version": "1.0.0",
+  "description": "MCP server for Rupiah: terbilang (number to Indonesian words), format/parse Rupiah, PPN 12% x 11/12 calculator.",
+  "mcpName": "io.github.EzkielynaGroup/mcp-rupiah",
+  "type": "module",
+  "bin": {
+    "mcp-rupiah": "mcp-rupiah.mjs"
+  },
+  "files": [
+    "mcp-rupiah.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "rupiah",
+    "terbilang",
+    "indonesia",
+    "ppn",
+    "vat",
+    "currency-format",
+    "bahasa-indonesia",
+    "claude-desktop",
+    "claude-code",
+    "cursor",
+    "opencode"
+  ],
+  "author": "Ezekiel Lieberhart (Ezkielyna)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzkielynaGroup/mcp-rupiah.git"
+  },
+  "homepage": "https://github.com/EzkielynaGroup/mcp-rupiah#readme",
+  "bugs": {
+    "url": "https://github.com/EzkielynaGroup/mcp-rupiah/issues"
+  }
+}
