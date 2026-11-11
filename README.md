@@ -39,7 +39,7 @@ What the tool does **not** model, on purpose (use `kategori: "custom"` and pass 
 
 - PPN *besaran tertentu* and other *nilai lain* bases set by separate regulations (consolidated in PMK 11 Tahun 2025), PPN *ditanggung pemerintah* (DTP), exempt goods/services, and PPnBM itself.
 - Older periods: before 2025 the rate was 11% (from 1 April 2022) and 10% before that. For luxury goods sold to end consumers the full 12% applies from 1 February 2025; the January 2025 transition is not modelled.
-- Official rounding on tax invoices: by default values are shown to the sen; `pembulatan` (`bawah`, `terdekat`, `atas`) rounds the PPN to whole Rupiah if you need it.
+- Invoice rounding rules (e-Faktur) are not modelled: by default values are shown to the sen; `pembulatan` (`bawah`, `terdekat`, `atas`) rounds the PPN to whole Rupiah if you need it.
 
 Sources (checked 11 November 2026):
 
